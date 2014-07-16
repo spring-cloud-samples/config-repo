@@ -5,8 +5,12 @@ spring:
   profiles: cloud
   platform:
     config:
-      uri: ${vcap.services.configserver.credentials.uri}
+      uri: ${vcap.services.configserver.credentials.uri:${configserver.${application.domain:cfapps.io}}}
 eureka:
   instance:
     hostname: ${spring.application.name}.${application.domain:cfapps.io}
     nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka.credentials.uri:${eureka.${application.domain:cfapps.io}}}
+      default.defaultZone: ${vcap.services.eureka.credentials.uri:${eureka.${application.domain:cfapps.io}}}
