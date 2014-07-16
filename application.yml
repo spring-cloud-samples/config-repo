@@ -1,13 +1,12 @@
 ---
-spring:
-  profiles: cloud
 application:
   domain: 23.23.221.131.xip.io
+spring:
+  profiles: cloud
+  platform:
+    config:
+      uri: http://${spring.application.name}.${application.domain:cfapps.io}
 eureka:
   instance:
     hostname: ${spring.application.name}.${application.domain:cfapps.io}
     nonSecurePort: 80
-service:
-  definition:
-    metadata:
-      uri: http://${spring.application.name}.${application.domain:cfapps.io}
