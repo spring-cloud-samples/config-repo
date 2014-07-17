@@ -14,5 +14,5 @@ eureka:
     nonSecurePort: 80
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka.credentials.uri:eureka.${application.domain:cfapps.io}}
-      default.defaultZone: ${vcap.services.eureka.credentials.uri:eureka.${application.domain:cfapps.io}}
+      defaultZone: ${vcap.services.eureka.credentials.uri:eureka.${application.domain:cfapps.io}}/v2/
+      default.defaultZone: ${vcap.services.eureka.credentials.uri:eureka.${application.domain:cfapps.io}}/v2/
