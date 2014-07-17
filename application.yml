@@ -1,6 +1,8 @@
 ---
 application:
   domain: 23.23.221.131.xip.io
+endpoints:
+  restart: enabled
 spring:
   profiles: cloud
   platform:
