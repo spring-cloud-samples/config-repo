@@ -1,3 +1,7 @@
+info:
+  new:
+  stuff: Hello World
+
 ---
 spring:
   profiles: cloud
