@@ -1,13 +1,13 @@
 ---
-application:
-  domain: 23.23.221.131.xip.io
-endpoints:
-  restart: enabled
 spring:
   profiles: cloud
   platform:
     config:
       uri: ${vcap.services.configserver.credentials.uri:http://${configserver.${application.domain:cfapps.io}}}
+application:
+  domain: 23.23.221.131.xip.io
+endpoints:
+  restart: enabled
 cloudfoundry:
   service:
     definition:
@@ -16,7 +16,7 @@ cloudfoundry:
 eureka:
   instance:
     hostname: ${spring.application.name}.${application.domain:cfapps.io}
-    nonSecurePort: 800
+    nonSecurePort: 80
   client:
     serviceUrl:
       defaultZone: ${vcap.services.eureka.credentials.uri:http://eureka.${application.domain:cfapps.io}/}v2/
