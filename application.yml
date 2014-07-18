@@ -8,6 +8,11 @@ spring:
   platform:
     config:
       uri: ${vcap.services.configserver.credentials.uri:http://${configserver.${application.domain:cfapps.io}}}
+cloudfoundry:
+  service:
+    definition:
+      metadata:
+        uri: http://${spring.application.name}.${application.domain:cfapps.io}
 eureka:
   instance:
     hostname: ${spring.application.name}.${application.domain:cfapps.io}
