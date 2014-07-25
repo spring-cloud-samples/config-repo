@@ -24,4 +24,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${vcap.services.eureka.credentials.uri:http://eureka.${application.domain:cfapps.io}/}v2/
-      default.defaultZone: ${vcap.services.eureka.credentials.uri:http://eureka.${application.domain:cfapps.io}/}v2/
