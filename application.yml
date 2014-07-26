@@ -9,7 +9,7 @@ spring:
     config:
       uri: ${vcap.services.configserver.credentials.uri:http://${configserver.${application.domain:cfapps.io}}}
 application:
-  domain: 184.72.224.23.xip.io
+  domain: ${APPLICATION_DOMAIN:cfapps.io}
 endpoints:
   restart: enabled
 cloudfoundry:
