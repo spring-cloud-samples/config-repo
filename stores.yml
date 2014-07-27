@@ -3,4 +3,4 @@ spring:
   profiles: cloud
   data:
     mongodb:
-      uri: ${vcap.services.mongodb.credentials.uri}
+      uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
