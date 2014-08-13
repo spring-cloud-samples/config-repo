@@ -12,11 +12,6 @@ application:
   domain: ${APPLICATION_DOMAIN:cfapps.io}
 endpoints:
   restart: enabled
-cloudfoundry:
-  service:
-    definition:
-      metadata:
-        uri: http://${spring.application.name}.${application.domain:cfapps.io}
 eureka:
   instance:
     hostname: ${PREFIX:}${spring.application.name}.${application.domain:cfapps.io}
@@ -24,3 +19,20 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${vcap.services.${PREFIX:}eureka.credentials.uri:http://${PREFIX:}eureka.${application.domain:cfapps.io}}/v2/
+
+---
+spring:
+  profiles: docker
+  platform:
+    config:
+      uri: http://configserver_1:8888
+endpoints:
+  restart: enabled
+eureka:
+  instance:
+    hostname: ${spring.application.name}_1
+    nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: http://eureka_1:8761/v2/
+
