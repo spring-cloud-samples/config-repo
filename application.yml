@@ -25,7 +25,7 @@ spring:
   profiles: docker
   platform:
     config:
-      uri: http://configserver_1:8888
+      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR}:8888
 endpoints:
   restart: enabled
 eureka:
@@ -34,5 +34,5 @@ eureka:
     nonSecurePort: 80
   client:
     serviceUrl:
-      defaultZone: http://eureka_1:8761/v2/
+      defaultZone: http://${EUREKA_1_PORT_8761_TCP_ADDR:localhost}:8761/v2/
 
