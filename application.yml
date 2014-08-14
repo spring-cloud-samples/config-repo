@@ -25,13 +25,13 @@ spring:
   profiles: docker
   platform:
     config:
-      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR}:8888
+      uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8888
 endpoints:
   restart: enabled
 eureka:
   instance:
-    hostname: ${spring.application.name}_1
     nonSecurePort: 80
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://${EUREKA_1_PORT_8761_TCP_ADDR:localhost}:8761/v2/
