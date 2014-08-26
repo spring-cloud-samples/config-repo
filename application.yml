@@ -2,12 +2,25 @@ info:
   new: Demo for Ramnivas
   stuff: Hello World
 
+cloudfoundry:
+  sso:
+    tokenUri: http://localhost:8080/uaa/oauth/token
+    authorizationUri: http://localhost:8080/uaa/oauth/authorize
+    clientId: app
+    clientSecret: appclientsecret
+
 ---
 spring:
   profiles: cloud
   platform:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
+cloudfoundry:
+  sso:
+    tokenUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenUri:}
+    authorizationUri: ${vcap.services.${PREFIX:}uaa.credentials.authorizationUri:}
+    clientId: ${vcap.services.${PREFIX:}uaa.credentials.clientId:}
+    clientSecret: ${vcap.services.${PREFIX:}uaa.credentials.clientSecret:}
 application:
   domain: ${APPLICATION_DOMAIN:cfapps.io}
 endpoints:
