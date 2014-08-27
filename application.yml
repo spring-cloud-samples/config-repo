@@ -2,13 +2,6 @@ info:
   new: Demo for Ramnivas
   stuff: Hello World
 
-cloudfoundry:
-  sso:
-    tokenUri: http://localhost:8080/uaa/oauth/token
-    authorizationUri: http://localhost:8080/uaa/oauth/authorize
-    clientId: app
-    clientSecret: appclientsecret
-
 ---
 spring:
   profiles: cloud
