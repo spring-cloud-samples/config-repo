@@ -14,6 +14,11 @@ cloudfoundry:
     authorizationUri: ${vcap.services.${PREFIX:}uaa.credentials.authorizationUri:}
     clientId: ${vcap.services.${PREFIX:}uaa.credentials.clientId:}
     clientSecret: ${vcap.services.${PREFIX:}uaa.credentials.clientSecret:}
+  resource:
+    tokenInfoUri: ${vcap.services.${PREFIX:}resource.credentials.tokenUri:}
+    clientId: ${vcap.services.${PREFIX:}resource.credentials.clientId:}
+    clientSecret: ${vcap.services.${PREFIX:}resource.credentials.clientSecret:}
+    serviceId: ${PREFIX:}resource
 application:
   domain: ${APPLICATION_DOMAIN:cfapps.io}
 endpoints:
