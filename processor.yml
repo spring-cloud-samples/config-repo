@@ -4,3 +4,5 @@ spring:
   data:
     mongodb:
       uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
+demo:
+  baseUri: http://${eureka.instance.hostname}
