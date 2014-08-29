@@ -12,6 +12,7 @@ cloudfoundry:
   sso:
     tokenUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenUri:}
     authorizationUri: ${vcap.services.${PREFIX:}uaa.credentials.authorizationUri:}
+    tokenInfoUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenInfoUri:}
     clientId: ${vcap.services.${PREFIX:}uaa.credentials.clientId:}
     clientSecret: ${vcap.services.${PREFIX:}uaa.credentials.clientSecret:}
   resource:
