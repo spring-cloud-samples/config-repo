@@ -8,8 +8,6 @@ spring:
   cloud:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
-server:
-  port: 80
 cloudfoundry:
   sso:
     tokenUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenUri:}
