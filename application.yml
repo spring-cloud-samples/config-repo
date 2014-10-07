@@ -1,11 +1,11 @@
 info:
-  new: Demo for Ramnivas
-  stuff: Hello World
+  description: Spring Cloud Samples
+  url: https://github.com/spring-cloud-samples
 
 ---
 spring:
   profiles: cloud
-  platform:
+  cloud:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
 cloudfoundry:
@@ -35,7 +35,7 @@ eureka:
 ---
 spring:
   profiles: docker
-  platform:
+  cloud:
     config:
       uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8888
 endpoints:
