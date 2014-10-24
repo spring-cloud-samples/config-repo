@@ -1,5 +1,13 @@
 ---
 spring:
+  profiles: cloudpeers
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.${PREFIX:}othereureka.credentials.uri:http://${PREFIX:}othereureka.${application.domain:cfapps.io}}/eureka/
+
+---
+spring:
   profiles: docker
 eureka:
   client:
