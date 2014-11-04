@@ -15,7 +15,7 @@ oauth2:
     clientId: ${vcap.services.${PREFIX:}sso.credentials.clientId:}
     clientSecret: ${vcap.services.${PREFIX:}sso.credentials.clientSecret:}
   resource:
-    tokenInfoUri: ${vcap.services.${oauth2.resource.serviceId}.credentials.tokenInfoUri:}
+    tokenInfoUri: ${vcap.services.${OAUTH2_RESOURCE_SERVICEID:${oauth2.resource.serviceId:sso}}.credentials.tokenInfoUri:}
     serviceId: ${PREFIX:}resource
 application:
   domain: ${APPLICATION_DOMAIN:cfapps.io}
