@@ -8,8 +8,8 @@ spring:
   cloud:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
-cloudfoundry:
-  sso:
+oauth2:
+  client:
     tokenUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenUri:}
     authorizationUri: ${vcap.services.${PREFIX:}uaa.credentials.authorizationUri:}
     tokenInfoUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenInfoUri:}
@@ -17,8 +17,6 @@ cloudfoundry:
     clientSecret: ${vcap.services.${PREFIX:}uaa.credentials.clientSecret:}
   resource:
     tokenInfoUri: ${vcap.services.${PREFIX:}resource.credentials.tokenInfoUri:}
-    clientId: ${vcap.services.${PREFIX:}resource.credentials.clientId:}
-    clientSecret: ${vcap.services.${PREFIX:}resource.credentials.clientSecret:}
     serviceId: ${PREFIX:}resource
 application:
   domain: ${APPLICATION_DOMAIN:cfapps.io}
