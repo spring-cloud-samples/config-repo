@@ -10,11 +10,10 @@ spring:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
 oauth2:
   client:
-    tokenUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenUri:}
-    authorizationUri: ${vcap.services.${PREFIX:}uaa.credentials.authorizationUri:}
-    tokenInfoUri: ${vcap.services.${PREFIX:}uaa.credentials.tokenInfoUri:}
-    clientId: ${vcap.services.${PREFIX:}uaa.credentials.clientId:}
-    clientSecret: ${vcap.services.${PREFIX:}uaa.credentials.clientSecret:}
+    tokenUri: ${vcap.services.${PREFIX:}sso.credentials.tokenUri:}
+    authorizationUri: ${vcap.services.${PREFIX:}sso.credentials.authorizationUri:}
+    clientId: ${vcap.services.${PREFIX:}sso.credentials.clientId:}
+    clientSecret: ${vcap.services.${PREFIX:}sso.credentials.clientSecret:}
   resource:
     tokenInfoUri: ${vcap.services.${PREFIX:}resource.credentials.tokenInfoUri:}
     serviceId: ${PREFIX:}resource
