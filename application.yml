@@ -12,7 +12,7 @@ spring:
   profiles: cloud
   cloud:
     config:
-      uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}${configserver.${application.domain:cfapps.io}}}
+      uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://${PREFIX:}configserver.${application.domain:cfapps.io}}
 oauth2:
   client:
     tokenUri: ${vcap.services.${PREFIX:}sso.credentials.tokenUri:}
