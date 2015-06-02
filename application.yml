@@ -29,7 +29,7 @@ endpoints:
 eureka:
   password: password
   instance:
-    hostname: ${PREFIX:}${spring.application.name}.${application.domain:cfapps.io}
+    hostname: ${vcap.application.uris[0]:localhost}
     nonSecurePort: 80
   client:
     serviceUrl:
