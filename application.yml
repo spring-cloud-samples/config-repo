@@ -6,6 +6,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://user:${eureka.password:}@localhost:8761/eureka/
+spring.cloud.stream.bindings:
+  springCloudBusInput: topic:springCloudBus
+  springCloudBusOutput: topic:springCloudBus
 
 ---
 spring:
