@@ -1,7 +1,7 @@
 info.description: configserver
 ---
 spring:
-  profiles: cloud
+  profiles: apx
 service:
   definition:
     metadata:

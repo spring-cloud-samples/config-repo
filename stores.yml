@@ -1,7 +1,0 @@
-foo: '{cipher}{key:test}AQCST0WVyBi2M5w1KWyzV6DNGXKBgk5Yd9QnbVv4rSj+7HhgsJh5gQTI/CZvV/wHZqYtYrGxJJ3TCdXc/gBP4dbkBDdOEJOq+u7UUqNTOd2693FgOp5CeoMREUOmLp9r0CtF4TZLdjZfs4kxiBPVPd5fEaz9ULIgtgLSdS2oUEg6UXr3LA/M7P8YchkEPYUyf+VxGUDe587XPffHMU4zmvhmoTSen9BAc5BuGK+FZ3GFe12MDEPkNQ0uY002FitEfmgON65Xh3eJtNxCbUXJTj+oDc0icePqOgnG0gc17MymZdcJCIhP+cCiS6LzS57vhP+xGZvBBBHnw00ZVzHX73UfKkC9GLsnEVVQO5Xf2COR/rGZqvLJNKgvSHcbf03PrhQ='
----
-spring:
-  profiles: cloud
-  data:
-    mongodb:
-      uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
