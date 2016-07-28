@@ -2,6 +2,9 @@ info:
   description: Spring Cloud Samples
   url: https://github.com/spring-cloud-samples
 eureka:
+instance:
+        leaseRenewalIntervalInSeconds: 3
+        instanceId: ${spring.application.name}:${random.int}
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
