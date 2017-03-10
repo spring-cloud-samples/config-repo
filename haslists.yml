@@ -1,0 +1,12 @@
+info:
+   description: ESPA Microwave Collector
+
+collector:
+   batch:
+      jobs:
+         - name: my_batch_job
+           clazz: com.example.myclazz
+           query: select  sql here
+           parameters:
+             - from
+             - to
