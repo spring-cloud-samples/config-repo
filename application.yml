@@ -12,6 +12,8 @@ foo: baz
 ---
 spring:
   profiles: cloud
+  server:
+    port: 8888
   cloud:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://user:password@${PREFIX:}configserver.${application.domain:cfapps.io}}
