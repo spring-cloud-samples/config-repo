@@ -1,6 +1,7 @@
 info:
   description: Spring Cloud Samples
   url: https://github.com/spring-cloud-samples
+  port: 8888
 eureka:
   client:
     serviceUrl:
