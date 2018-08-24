@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregating.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo-db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo-development-db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo-development.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logtest.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplebackendservice-development.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplebackendservice.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplefrontendservice.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stores.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subdir/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text-resource.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +19,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="properties" value="10" />
+          <entry key="properties" value="12" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
           <entry key="yaml" value="1" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="7" />
           <entry key="ynl" value="1" />
         </counts>
       </usages-collector>
@@ -53,14 +31,14 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="10" />
+          <entry key="Properties" value="12" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="properties" value="62" />
+          <entry key="properties" value="66" />
           <entry key="txt" value="39" />
           <entry key="yml" value="146" />
         </counts>
@@ -68,7 +46,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Properties" value="62" />
+          <entry key="Properties" value="66" />
           <entry key="YAML" value="146" />
         </counts>
       </usages-collector>
@@ -76,33 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaotian.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaotian.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,10 +64,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
+        <entry file="file://$PROJECT_DIR$/xiaotian.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaotian-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaotian.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -134,6 +103,7 @@
         <option value="$PROJECT_DIR$/xiaotian.yml" />
         <option value="$PROJECT_DIR$/xiaotian.properties" />
         <option value="$PROJECT_DIR$/application.properties" />
+        <option value="$PROJECT_DIR$/xiaotian-dev.properties" />
       </list>
     </option>
   </component>
@@ -181,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535095725925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535096031654" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -214,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535094512900</updated>
-      <workItem from="1535094515170" duration="1210000" />
+      <workItem from="1535094515170" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="add dev profile">
       <created>1535094647540</created>
@@ -227,7 +197,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1210000" />
+    <option name="totallyTimeSpent" value="1516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -377,10 +347,10 @@
     <entry file="file://$PROJECT_DIR$/subdir/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
+    <entry file="file://$PROJECT_DIR$/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -391,10 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.yml">
+    <entry file="file://$PROJECT_DIR$/xiaotian.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -405,10 +375,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaotian.yml">
+    <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaotian-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
