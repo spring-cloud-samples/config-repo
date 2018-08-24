@@ -10,6 +10,13 @@ foo: baz
 
 ---
 spring:
+  profiles: dev
+person:
+  name: 123
+  age: 456
+
+---
+spring:
   profiles: cloud
   cloud:
     config:
