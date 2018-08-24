@@ -1,5 +1,0 @@
-logging:
-  level:
-    com.example:
-      foo: DEBUG
-      bar: DEBUG

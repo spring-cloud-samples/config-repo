@@ -1,8 +1,0 @@
-info.description: configserver
----
-spring:
-  profiles: cloud
-service:
-  definition:
-    metadata:
-      uri: http://${spring.application.name}.${application.domain:cfapps.io}

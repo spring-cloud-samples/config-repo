@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregating.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo-db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo-development-db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo-development.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logtest.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplebackendservice-development.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplebackendservice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplefrontendservice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subdir/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-resource.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul.properties" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1815261441">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="properties" value="10" />
+          <entry key="txt" value="2" />
+          <entry key="xml" value="1" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="5" />
+          <entry key="ynl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="10" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="properties" value="62" />
+          <entry key="txt" value="39" />
+          <entry key="yml" value="146" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Properties" value="62" />
+          <entry key="YAML" value="146" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaotian.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaotian.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/xiaotian-dev.yml" />
+        <option value="$PROJECT_DIR$/application.yml" />
+        <option value="$PROJECT_DIR$/xiaotian.yml" />
+        <option value="$PROJECT_DIR$/xiaotian.properties" />
+        <option value="$PROJECT_DIR$/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\work\software\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="39" />
+    <option name="y" value="130" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="config-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535095725925" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sunfe\Desktop\config-repo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="" />
+      <created>1535094512900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535094512900</updated>
+      <workItem from="1535094515170" duration="1210000" />
+    </task>
+    <task id="LOCAL-00001" summary="add dev profile">
+      <created>1535094647540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535094647540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1210000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.26233906" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.20493563" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.5214521" side_tool="true" weight="0.17996787" />
+      <window_info id="Favorites" order="6" sideWeight="0.5227656" side_tool="true" weight="0.65688777" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Application Servers" order="8" show_stripe_button="false" side_tool="true" weight="0.5181237" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.6137339" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49093816" weight="0.4165824" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5171674" weight="0.59049547" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.56813306" weight="0.66430736" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.49248928" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.588141" weight="0.32457027" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.4957265" weight="0.32457027" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.53063065" weight="0.39493948" />
+      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.491453" weight="0.51971686" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49786323" weight="0.2982811" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.46936938" side_tool="true" weight="0.39504844" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Dynamic Properties" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.1641791" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.492" weight="0.134375" />
+      <window_info anchor="right" id="Module Dependencies" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.508" side_tool="true" weight="0.14552239" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.29584223" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Data View" order="8" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Database" order="11" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="12" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" x="129" y="92" width="1736" height="866" id="Documentation" order="14" type="FLOATING" />
+      <window_info anchor="right" id="LuaJ" order="15" />
+      <window_info anchor="right" id="SciView" order="16" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.26287553" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.20493563" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.5214521" side_tool="true" weight="0.17996787" />
+      <window_info id="Favorites" order="6" sideWeight="0.5227656" side_tool="true" weight="0.65688777" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Application Servers" order="8" show_stripe_button="false" side_tool="true" weight="0.5181237" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.6137339" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49093816" weight="0.4165824" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5171674" weight="0.59049547" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.56813306" weight="0.66430736" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.49248928" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.588141" weight="0.32457027" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4957265" weight="0.32457027" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.53063065" visible="true" weight="0.39493948" />
+      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.491453" weight="0.51971686" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49786323" weight="0.2982811" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.46936938" side_tool="true" weight="0.39504844" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
+      <window_info anchor="right" id="Dynamic Properties" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.1641791" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.492" weight="0.134375" />
+      <window_info anchor="right" id="Module Dependencies" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.508" side_tool="true" weight="0.14552239" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.29584223" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Data View" order="8" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Database" order="11" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="12" show_stripe_button="false" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" x="129" y="92" width="1736" height="866" id="Documentation" order="14" type="FLOATING" />
+      <window_info anchor="right" id="LuaJ" order="15" />
+      <window_info anchor="right" id="SciView" order="16" weight="0.3299356" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dev profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dev profile" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/foo-db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplefrontendservice.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplebackendservice.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplebackendservice-development.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subdir/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaotian.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaotian.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
