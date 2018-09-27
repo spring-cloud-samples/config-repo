@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: message
+  aop:
+    auto: true
+  activemq:
+    brokerUrl: tcp://172.16.16.162:61616
+    user: system
+    password: manager
+    concurrency: 5-10
+  mail:
+    protocol: smtp
+    host: smtp.tourongjia.com
+    port: 25
+    username: stwy@tourongjia.com
+    password: stWY000426
+  datasource:
+    url: jdbc:mysql://172.16.16.166:3306/message?useSSL=false
+    username: message
+    password: GuGXdRq2kfFAqNdVmvsN
+    driverClassName: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis-config.xml
+app:
+  environment:
+    develop
+  sms:
+    liCheng:
+      domain: http://112.124.61.46
+      username: cfd002
+      password: cfd002
+    chuangLan:
+      domain: http://sms.253.com
+      username: N7581937
+      password: M3FBD0WGUK771e
+    emay:
+      cfd:
+        domain: http://sdk999ws.eucp.b2m.cn:8080
+        username: 9SDK-EMY-0999-RJYUR
+        password: 716633
+      dl:
+        domain: http://hprpt2.eucp.b2m.cn:8080
+        username: 8SDK-EMY-6699-SEVOO
+        password: 218677
+    dahantc:
+      hm:
+        domain: http://www.dh3t.com
+        username: dh81341
+        password: 1JTgsD6B
+        sign: 海米微贷
+      cxsd:
+        domain: http://www.dh3t.com
+        username: dh87231
+        password: 5n9EH8aE
+        sign: 畅想时代
+      nxph:
+        domain: http://www.dh3t.com
+        username: dh81341
+        password: 1JTgsD6B
+        sign: 侬享普惠
