@@ -1,0 +1,13 @@
+server:
+  port: 1008
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:1001/eureka/
+  instance:
+    prefer-ip-address: true
+    health-check-url-path:
+
+security:
+  basic:
+    enabled: false
