@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigClient.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigClient-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigClient-dev.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,14 +87,14 @@
         <counts>
           <entry key="gitignore" value="10" />
           <entry key="properties" value="14" />
-          <entry key="yml" value="50" />
+          <entry key="yml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
           <entry key="Properties" value="14" />
-          <entry key="YAML" value="50" />
+          <entry key="YAML" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConfigClient-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -130,9 +129,9 @@
         <option value="$PROJECT_DIR$/xiaotian-dev.yml" />
         <option value="$PROJECT_DIR$/xiaotian-dev.properties" />
         <option value="$PROJECT_DIR$/ConfigClient-dev.properties" />
-        <option value="$PROJECT_DIR$/ConfigClient-dev.yml" />
         <option value="$PROJECT_DIR$/ConfigClient.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ConfigClient-dev.yml" />
       </list>
     </option>
   </component>
@@ -183,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538296066249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538296908337" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -219,7 +218,7 @@
       <updated>1535094512900</updated>
       <workItem from="1535094515170" duration="4154000" />
       <workItem from="1538293368761" duration="1428000" />
-      <workItem from="1538295541283" duration="525000" />
+      <workItem from="1538295541283" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="add dev profile">
       <created>1535094647540</created>
@@ -232,7 +231,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6107000" />
+    <option name="totallyTimeSpent" value="6773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -359,8 +358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConfigClient-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
