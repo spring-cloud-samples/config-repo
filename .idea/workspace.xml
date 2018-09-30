@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/xiaotian-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xiaotian-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaotian-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaotian-dev.yml" afterDir="false" />
-    </list>
+    <list default="true" id="29e35ec1-65ec-4fdf-bfe6-1c127c26b957" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +59,49 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="918711992">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="2" />
+          <entry key="properties" value="10" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="10" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="9" />
+          <entry key="properties" value="14" />
+          <entry key="yml" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="14" />
+          <entry key="YAML" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaotian-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,46 +112,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaotian-dev.properties">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
+        <entry file="file://$PROJECT_DIR$/ConfigClient-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaotian.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaotian.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="25">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -133,6 +143,10 @@
         <option value="$PROJECT_DIR$/application.properties" />
         <option value="$PROJECT_DIR$/xiaotian-dev.yml" />
         <option value="$PROJECT_DIR$/xiaotian-dev.properties" />
+        <option value="$PROJECT_DIR$/ConfigClient-dev.properties" />
+        <option value="$PROJECT_DIR$/ConfigClient-dev.yml" />
+        <option value="$PROJECT_DIR$/ConfigClient.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -152,7 +166,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="39" />
     <option name="y" value="130" />
     <option name="width" value="974" />
@@ -165,6 +179,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,20 +192,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535102613481" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538295493334" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\github\config-repo" />
       <recent name="C:\Users\sunfe\Desktop\config-repo" />
     </key>
   </component>
@@ -217,6 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535094512900</updated>
       <workItem from="1535094515170" duration="4154000" />
+      <workItem from="1538293368761" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="add dev profile">
       <created>1535094647540</created>
@@ -229,13 +245,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4154000" />
+    <option name="totallyTimeSpent" value="5525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.26233906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.26609442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.20493563" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -244,7 +260,6 @@
       <window_info id="Favorites" order="6" sideWeight="0.5227656" side_tool="true" weight="0.65688777" />
       <window_info id="Designer" order="7" />
       <window_info id="Application Servers" order="8" show_stripe_button="false" side_tool="true" weight="0.5181237" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.6137339" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49093816" weight="0.4165824" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5171674" weight="0.59049547" />
@@ -262,6 +277,7 @@
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Dynamic Properties" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.1641791" />
       <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.492" weight="0.134375" />
@@ -280,52 +296,6 @@
       <window_info anchor="right" id="LuaJ" order="15" />
       <window_info anchor="right" id="SciView" order="16" weight="0.3299356" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.26287553" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.20493563" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Web" order="5" sideWeight="0.5214521" side_tool="true" weight="0.17996787" />
-      <window_info id="Favorites" order="6" sideWeight="0.5227656" side_tool="true" weight="0.65688777" />
-      <window_info id="Designer" order="7" />
-      <window_info id="Application Servers" order="8" show_stripe_button="false" side_tool="true" weight="0.5181237" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.6137339" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49093816" weight="0.4165824" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5171674" weight="0.59049547" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.56813306" weight="0.66430736" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.49248928" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.588141" weight="0.32457027" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4957265" weight="0.32457027" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.53063065" visible="true" weight="0.39493948" />
-      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.491453" weight="0.51971686" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49786323" weight="0.2982811" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.46936938" side_tool="true" weight="0.39504844" />
-      <window_info anchor="bottom" id="Tail" order="15" />
-      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32939914" />
-      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
-      <window_info anchor="right" id="Dynamic Properties" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.1641791" />
-      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.492" weight="0.134375" />
-      <window_info anchor="right" id="Module Dependencies" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.508" side_tool="true" weight="0.14552239" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.29584223" />
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="right" id="Data View" order="8" show_stripe_button="false" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
-      <window_info anchor="right" id="Database" order="11" show_stripe_button="false" weight="0.32995737" />
-      <window_info anchor="right" id="Bean Validation" order="12" show_stripe_button="false" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" order="13" />
-      <window_info anchor="right" x="129" y="92" width="1736" height="866" id="Documentation" order="14" type="FLOATING" />
-      <window_info anchor="right" id="LuaJ" order="15" />
-      <window_info anchor="right" id="SciView" order="16" weight="0.3299356" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -338,46 +308,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="add dev profile" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foo-db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bar.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.yml">
+    <entry file="file://$PROJECT_DIR$/foo-db.properties" />
+    <entry file="file://$PROJECT_DIR$/bar.properties" />
+    <entry file="file://$PROJECT_DIR$/books.xml" />
+    <entry file="file://$PROJECT_DIR$/eureka.yml" />
+    <entry file="file://$PROJECT_DIR$/foo.properties" />
+    <entry file="file://$PROJECT_DIR$/test.json" />
+    <entry file="file://$PROJECT_DIR$/samplefrontendservice.properties" />
+    <entry file="file://$PROJECT_DIR$/samplebackendservice.properties" />
+    <entry file="file://$PROJECT_DIR$/samplebackendservice-development.properties" />
+    <entry file="file://$PROJECT_DIR$/subdir/test.txt" />
+    <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samplefrontendservice.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samplebackendservice.properties">
+    <entry file="file://$PROJECT_DIR$/xiaotian-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samplebackendservice-development.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subdir/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaotian.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -389,21 +349,17 @@
     <entry file="file://$PROJECT_DIR$/xiaotian.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ConfigClient.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
+    <entry file="file://$PROJECT_DIR$/ConfigClient-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="25">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -414,10 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaotian-dev.properties">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
