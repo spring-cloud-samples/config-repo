@@ -42,7 +42,7 @@ ribbon:
 
 ---
 spring:
-  profiles: docker
+  config.activate.on-profile: docker
   cloud:
     config:
       uri: http://${CONFIGSERVER_1_PORT_8888_TCP_ADDR:localhost}:8888
