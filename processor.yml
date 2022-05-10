@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: cloud
+  config.activate.on-profile: cloud
   data:
     mongodb:
       uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
