@@ -1,7 +1,7 @@
 info.description: configserver
 ---
 spring:
-  profiles: cloud
+  config.activate.on-profile: cloud
 service:
   definition:
     metadata:
