@@ -10,7 +10,7 @@ foo: baz
 
 ---
 spring:
-  profiles: cloud
+  config.activate.on-profile: cloud
   cloud:
     config:
       uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://user:password@${PREFIX:}configserver.${application.domain:cfapps.io}}
