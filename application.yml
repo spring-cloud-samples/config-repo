@@ -1,5 +1,5 @@
 info:
-  description: Spring Cloud Samples
+  description: Spring Cloud Samples-Test
   url: https://github.com/spring-cloud-samples
 eureka:
   client:
@@ -8,7 +8,7 @@ eureka:
       
 foo: baz
 
----
+--- 
 spring:
   config.activate.on-profile: cloud
   cloud:
